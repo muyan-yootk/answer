@@ -7,10 +7,19 @@
         <groupId>com.jixianit</groupId>
         <version>1.0</version>
     </parent>
+    <artifactId>answer-base</artifactId>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-
-    <artifactId>answer-base</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
+    </dependencies>
     <build>
         <finalName>answer-base</finalName>
     </build>
