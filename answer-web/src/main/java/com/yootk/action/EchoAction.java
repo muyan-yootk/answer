@@ -1,4 +1,4 @@
-package cn.mldn.action;
+package com.yootk.action;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

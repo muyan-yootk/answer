@@ -1,4 +1,4 @@
-package cn.mldn.action;
+package com.yootk.action;
 
 import java.util.Arrays;
 import java.util.Date;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import cn.mldn.util.action.AbstractAction;
+import com.yootk.util.action.AbstractAction;
 
 @Controller
 @RequestMapping("/pages/form/*")	

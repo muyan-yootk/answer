@@ -1,4 +1,4 @@
-package cn.mldn.util.action;
+package com.yootk.util.action;
 
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;

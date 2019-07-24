@@ -1,4 +1,4 @@
-package cn.mldn.vo;
+package com.yootk.vo;
 
 import java.io.Serializable;
 import java.util.Date;

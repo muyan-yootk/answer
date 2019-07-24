@@ -1,11 +1,9 @@
 package com.jixianit.demo;
 
-public class TestDemo {
-    public static void main(String[] args) throws Exception {
-        getInto();
-    }
+import java.util.function.Consumer;
 
-    public static String getInto() throws Exception {
-        return null;
+public class TestDemo {
+    public static void main(String args[]) throws Exception {
+        int data = 10;
     }
 }

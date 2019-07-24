@@ -1,13 +1,13 @@
-package cn.mldn.action;
+package com.yootk.action;
 
+import com.yootk.vo.Emp;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import cn.mldn.vo.Emp;
-import cn.mldn.util.action.AbstractAction;
+import com.yootk.util.action.AbstractAction;
 
 @Controller
 @RequestMapping("/pages/emp/*")	
